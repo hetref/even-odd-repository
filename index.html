@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Even || Odd</title>
+</head>
+<body>
+
+	<h3>Here you can see that if the number is odd or even</h3>
+
+	<p>Enter a Number <input type="text" placeholder="eg-10" id="inputTaker"></p>
+
+	<button id="checkButton">Check</button>
+	
+	
+	
+	<script type="text/javascript">
+		document.getElementById("checkButton").onclick = function () {
+    		if( document.getElementById("inputTaker").value % 2 == 0) {
+        		alert("It is Even Number");
+    		} else {
+        		alert("It is Odd Number");
+    		} 
+		}
+	</script>
+
+</body>
+</html>
